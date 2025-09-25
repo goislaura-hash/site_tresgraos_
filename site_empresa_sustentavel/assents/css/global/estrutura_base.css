@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+}
+#header{
+    background-color: rgb(231, 228, 228);
+    width: 1340px;
+    height: 60px;
+    position: fixed;
+    top: 18px;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+#tresgraos{
+    position: relative;
+    margin-left: 50px;
+    top: -4px;
+    font-size: 13px;
+}
+#menu{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 20px;
+    margin-left: 692px;
+    font-size: 18px;
+    height: 20px;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+#header a:hover{
+    text-decoration: underline;
+}
+#container{
+    position: relative;
+    margin: auto;
+    width: 1246px;
+    height: 4050px;
+    background-color: rgb(212, 215, 215);
+}

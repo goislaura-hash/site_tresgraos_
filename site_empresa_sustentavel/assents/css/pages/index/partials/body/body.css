@@ -1,0 +1,260 @@
+/*conteúdo*/
+@import url(/assents/css/global/variables.css);
+/*primeira seção*/
+#primeira{
+    position: relative;
+    width: var(--width-div);
+    right: var(--right-div);
+    height: 870px;
+    top: -33px;
+    background-image: url("/assents/img/index/primeira_sessao/fundo2.jpg");
+    background-repeat: no-repeat;
+}
+#titulo1{
+    width: 540px;
+    position: relative;
+    left: var(--left-div);
+    top: 200px;
+    font-size: 27px;
+    color: rgb(6, 92, 6);
+    text-shadow: 3px 1px 5px rgb(0, 0, 0);
+}
+#subtitulo1{
+    position: relative;
+    left: var(--left-div);
+    top: 190px;
+    text-align: left;
+    width: 500px;
+    font-size: 14px;
+    font-family: var(--font-principal);
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+/*segunda seção*/
+#segunda{
+    background-color: black;
+    position: relative;
+    width: var(--width-div);
+    right: var(--right-div);
+    top: -49px;
+    height: 500px;
+}
+#titulo2{
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    top: 18px;
+    color: rgba(255, 255, 255, 0.538);
+}
+#subtitulo2{
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    width: 620px;
+    position: relative;
+    left: var(--left-div);
+    top: 90px;
+}
+.destacada2{
+    color: rgb(11, 77, 11);
+}
+#biografia{
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+    color: rgba(255, 255, 255, 0.59)
+
+}
+#texto2{
+    position: relative;
+    left: 900px;
+    width: 400px;
+    top: -140px;
+    font-family: var(--font-principal);
+    color: rgba(255, 255, 255, 0.59);
+}
+#saibaMais2{
+    position: relative;
+    left: 1020px;
+    width: 80px;
+    top: -140px;
+    font-family: var(--font-principal);
+}
+#saibaMais2 a{
+    text-decoration: none;
+    color: rgba(86, 82, 82, 0.557);
+}
+/*terceira seção*/
+#terceiro{
+    background-image: url("/assents/img/index/terceira_sessao/fundo.jpg") ;
+    position: relative;
+    width: 1400px;
+    right: 80px;
+    top: -104px;
+    height: 780px;;
+    border-radius: 50px;
+}
+#titulo3{
+    color: rgb(0, 0, 0);
+    width: 280px;
+    position: relative;
+    left: var(--left-div);
+    top: 120px;
+    font-size: 27px;
+}
+#subtitulo3{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: var(--left-div);
+    top: 100px;
+    width: 310px;
+    font-family: var(--font-principal);
+    font-size: 20px;
+}
+#sinopse{
+    color: rgb(3, 93, 3);
+    position: relative;
+    top: 180px;
+    left: var(--left-div);
+    width: 440px;
+    font-size: 22px;
+    z-index: 2;
+}
+#texto3{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 170px;
+    left: var(--left-div);
+    width: 480px;
+    font-size: 18px;
+    font-family: var(--font-principal);
+    z-index: 1;
+    font-size: 20px;
+}
+#lerMais3{
+    position: relative;
+    top: 170px;
+    left: 200px;
+    width: 80px;
+    font-family: var(--font-principal);
+}
+#lerMais3 a{
+    text-decoration: none;
+    color: black;
+}
+#img-mundo3 img{
+   position: relative;
+   width: 200px;
+   height: 360px;
+   left: 720px;
+   top: -255px;
+   border-radius: 30px;
+   box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+#img3_natureza img{
+   position: relative;
+   width: 230px;
+   height: 400px;
+   left: 950px;
+   top: -640px;
+   border-radius: 30px;
+   box-shadow: 1px 1px 12px rgb(0, 0, 0);
+}
+/*quarta seção*/
+#quarta{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: var(--width-div);
+    right: var(--right-div);
+    top: -127px;
+    height: 670px;
+}
+#titulo4{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: white;
+}
+.destacada4-1{
+    color: gold;
+}
+.lista{
+    color: white;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+#carro_eletrico{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:  rgb(32, 95, 3);
+    color: gold;
+    font-size: 20px; 
+}
+#resumo4-1{
+    text-align: justify;
+    color: black;
+    top: 30px;
+    position: relative;
+    width: 240px;
+    left: 29px;
+}
+#agricultura_familiar{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:   rgb(32, 95, 3);
+    color: gold;
+    font-size: 20px;
+}
+#resumo4-4{
+    text-align: justify;
+    color: black;
+    top: 30px;
+    position: relative;
+    width: 240px;
+    left: 29px;
+}
+#timecaffee{
+    width: 300px;
+    border: white solid 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(174, 230, 148);
+    color: gold;
+    font-size: 20px;
+}
+#timecaffee h2{
+    position: relative;
+    top: -20px;
+}
+#resumo4-2{
+    text-align: justify;
+    color: black;
+    top: 30px;
+    position: relative;
+    width: 240px;
+    left: 29px;
+}
+#reciclagem_reversa{
+    width: 300px;
+    border: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color:   rgb(231, 228, 228);
+    color: gold;
+    font-size: 20px;
+}
+#resumo4-3{
+    text-align: justify;
+    color: black;
+    position: relative;
+    top: 30px;
+    width: 240px;
+    left: 29px;
+}
